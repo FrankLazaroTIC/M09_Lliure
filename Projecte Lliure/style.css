@@ -1,0 +1,162 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #444;
+    color: #eee;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+main {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #444;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.shoe-display {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.shoe-item {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.shoe-item img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.store .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.store .products img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #555;
+    color: #eee;
+    padding: 20px 0;
+    text-align: center;
+}
+.intro {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.intro .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.store {
+    text-align: center;
+    max-width: 300px;
+}
+
+.store img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.store h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.menu {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.menu .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shoe-display {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.shoe-item {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.shoe-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.shoe-item h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.shoe-item p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+.gallery {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.gallery .container {
+    text-align: center;
+}
